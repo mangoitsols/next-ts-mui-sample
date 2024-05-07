@@ -1,0 +1,47 @@
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #f9fafb;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.MuiDialog-paperScrollPaper {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
+}
+
+/* Custom Vertical scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb;
+  border-radius: 5px;
+}

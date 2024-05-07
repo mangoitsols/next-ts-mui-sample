@@ -1,0 +1,29 @@
+.lists-container {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .lists-container {
+    display: block;
+  }
+}
+
+/* Add a class to dl elements */
+.dl-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.dl-container > * {
+  flex: 0 0 50%;
+  margin: 0;
+  text-align: center;
+  outline: 1px solid lightslategray;
+}
+
+.dt-container {
+  text-align: center;
+  font-weight: bold;
+  outline: 1px solid gray;
+}
